@@ -47,7 +47,6 @@ header {
 /* Banner */
 .banner {
     background-image: url("resources/image 1.png");
-    background-color: #333333;
     background-size: cover;
     margin: 59px;   
     height: 410px;
@@ -124,14 +123,16 @@ header {
 .restaurants {
     margin: 59px;
 }
-
-.restaurants h2 {
-    font-size: 32px; 
-    font-weight: medium;
+.head{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 44px;
+    padding-right: 40px;
+}
+.restaurants h2 {
+    font-size: 32px; 
+    font-weight: medium;
 }
 
 .cards {
@@ -140,18 +141,45 @@ header {
     gap: 25px;
 }
 
-.card {
-    background-image: url("resources/image\ 9.png");
+.card1{
+    background-image: url("resources/image 9.png") ;
     background-size: cover;
     display: flex;
-    align-items: center;
+    padding: 20px;
+    height: 153px;
+    width: 648px;
+    border-radius: 12px;
+}
+.card2{
+    background-image: url("resources/image 10.png") ;
+    background-size: cover;
+    display: flex;
+    padding: 20px;
+    height: 153px;
+    width: 648px;
+    border-radius: 12px;
+}
+.card3{
+    background-image: url("resources/image 11.png") ;
+    background-size: cover;
+    opacity: 0.7px;
+    display: flex;
+    padding: 20px;
+    height: 153px;
+    width: 648px;
+    border-radius: 12px;
+}
+.card4{
+    background-image: url("resources/image 12.png") ;
+    background-size: cover;
+    display: flex;
     padding: 20px;
     height: 153px;
     width: 648px;
     border-radius: 12px;
 }
 
-.card p{
+.cards p{
     font-size: 25px;
     font-weight: medium;
     text-align: center;
@@ -171,20 +199,11 @@ header {
     margin-bottom: 44px;
 }
 
-.discount-carousel {
-    background-color: rgb(223, 215, 205);
-    display: flex;
-    gap: 1rem;
-    overflow-x: auto;
+.discount img {
+    height: 259px;
+    width: 100%;
+    background-size: cover;
     border-radius: 12px;
-    scroll-snap-type: x mandatory;
-}
-.slide {
-      flex: 0 0 auto;
-      scroll-snap-align: center;
-      height: 259px;
-      background: #ddd;
-      border-radius: 12px;
 }
 
 .footer {
@@ -195,4 +214,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
 }
