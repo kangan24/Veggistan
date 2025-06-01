@@ -168,6 +168,7 @@
       }
 
       @media (max-width: 768px) {
+
         .logo {
           width: 120px;
           height: 50px;
@@ -185,5 +186,9 @@
         .category img {
           width: 60px;
           height: 60px;
+        }
+
+        .footer {
+            gap: 1rem;
         }
       }
