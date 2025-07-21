@@ -1,2 +1,2 @@
 # Veggistan
-Veggistan - a food delivery application that offers only vegetarian food to their customers. 
+Veggistan – a vegetarian-only food delivery app designed for users who seek trust, purity, and convenience in their food choices.
